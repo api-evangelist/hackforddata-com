@@ -1,4 +1,4 @@
-# hackforddata-com
+# Hackford
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,135 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-hackforddata-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://hackforddata.com/
+Hackford offers a B2B data and intelligence platform that aggregates regulatory, permission and personnel information on financial services firms in the United Kingdom, United States, Luxembourg and the European Union. The service provides searchable firm identities, classifications, change alerts and API access for teams that sell to, consult for, or monitor regulated financial institutions.
+
+**Areas:** Data · Intelligence · Financial Services · Regulatory · B2B · API · Compliance
+
+## Hackford on APIs.io
+
+Everything profiled for Hackford is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hackforddata-com/](https://apis.io/providers/hackforddata-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (10)
+
+- [Hackford Complaints API](https://apis.io/apis/hackforddata-com/hackforddata-com-complaints-api/) — The Complaints API from Hackford — 1 operation(s) for complaints.
+- [Hackford Enforcement API](https://apis.io/apis/hackforddata-com/hackforddata-com-enforcement-api/) — The Enforcement API from Hackford — 1 operation(s) for enforcement.
+- [Hackford Exports API](https://apis.io/apis/hackforddata-com/hackforddata-com-exports-api/) — The Exports API from Hackford — 2 operation(s) for exports.
+- [Hackford Firm types API](https://apis.io/apis/hackforddata-com/hackforddata-com-firm-types-api/) — The Firm types API from Hackford — 1 operation(s) for firm types.
+- [Hackford Firms API](https://apis.io/apis/hackforddata-com/hackforddata-com-firms-api/) — The Firms API from Hackford — 5 operation(s) for firms.
+- [Hackford People API](https://apis.io/apis/hackforddata-com/hackforddata-com-people-api/) — The People API from Hackford — 1 operation(s) for people.
+- [Hackford Public API](https://apis.io/apis/hackforddata-com/hackforddata-com-public-api-api/) — The Public API API from Hackford — 1 operation(s) for public api.
+- [Hackford Relationships API](https://apis.io/apis/hackforddata-com/hackforddata-com-relationships-api/) — The Relationships API from Hackford — 2 operation(s) for relationships.
+- [Hackford Saved searches API](https://apis.io/apis/hackforddata-com/hackforddata-com-saved-searches-api/) — The Saved searches API from Hackford — 4 operation(s) for saved searches.
+- [Hackford Watchlists API](https://apis.io/apis/hackforddata-com/hackforddata-com-watchlists-api/) — The Watchlists API from Hackford — 6 operation(s) for watchlists.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Hackford Agentic Access](https://apis.io/agentic-access/hackforddata-com/hackforddata-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [FirmDetail](https://apis.io/schemas/hackforddata-com/hackforddata-com-firm-detail/)
+- [FirmExportResponse](https://apis.io/schemas/hackforddata-com/hackforddata-com-firm-export-response/)
+- [FirmFosDecisionsResponse](https://apis.io/schemas/hackforddata-com/hackforddata-com-firm-fos-decisions-response/)
+- [FirmPermissionsResponse](https://apis.io/schemas/hackforddata-com/hackforddata-com-firm-permissions-response/)
+- [PublicApiSavedSearch](https://apis.io/schemas/hackforddata-com/hackforddata-com-public-api-saved-search/)
+- [PublicApiWatchlist](https://apis.io/schemas/hackforddata-com/hackforddata-com-public-api-watchlist/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Hackforddata Com Context](https://apis.io/jsonld/hackforddata-com/hackforddata-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Hackford API Rules](https://apis.io/rules/hackforddata-com/hackforddata-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Hackford Authentication](https://apis.io/security/hackforddata-com/hackforddata-com-authentication/)
+- [Hackford Domain Security](https://apis.io/security/hackforddata-com/hackforddata-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Hackford Plans Pricing](https://apis.io/plans/hackforddata-com/hackforddata-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://hackforddata.com/)
+- [Documentation](https://docs.hackforddata.com/)
+- [Pricing](https://hackforddata.com/pricing)
+- [Terms of service](https://hackforddata.com/terms)
+- [Privacy policy](https://hackforddata.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 48.4** — developing · rubric 0.27.0 · scored 2026-11-11
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 60.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 27.9 |
+| Access clarity | 50.5 |
+
+**Agent readiness 52.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hackforddata-com/](https://apis.io/providers/hackforddata-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Hackford: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hackforddata-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
